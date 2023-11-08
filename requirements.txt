@@ -1,0 +1,16 @@
+fastapi==0.104.1
+playwright==1.39.0
+uvicorn~=0.24.0.post1
+pydantic~=2.4.2
+anyio==3.7.1
+dramatiq[rabbitmq,watch]
+alembic==1.12.1
+sqlalchemy[async]
+asyncpg
+psycopg2-binary
+pydantic-settings
+pytest
+pytest-asyncio
+pytest-mock
+pytest-xdist
+Pillow==10.1.0
